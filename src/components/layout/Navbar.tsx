@@ -25,7 +25,7 @@ export default function Navbar() {
         {/* Actions */}
         <div className="hidden md:flex items-center gap-6">
           <a href="tel:18003572011" className="font-mono text-sm text-cloud hover:text-gold transition-colors">
-            📞 1-800-357-2011
+            1-800-357-2011
           </a>
           <Button href="/contact" variant="primary">Schedule Consultation</Button>
         </div>

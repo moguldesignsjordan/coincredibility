@@ -37,6 +37,11 @@ export default function Footer() {
                 1-800-357-2011
               </a>
             </li>
+            <li>
+              <a href="mailto:info@coincredibility.com" className="hover:text-gold transition-colors">
+                info@coincredibility.com
+              </a>
+            </li>
             <li className="text-muted">Westland, MI</li>
           </ul>
         </div>
