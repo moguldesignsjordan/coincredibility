@@ -1,19 +1,20 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, DM_Sans, DM_Mono } from 'next/font/google';
+import { Cinzel, Barlow, DM_Mono } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 
-const playfair = Playfair_Display({
+const cinzel = Cinzel({
   subsets: ['latin'],
-  variable: '--font-playfair',
+  variable: '--font-cinzel',
   weight: ['400', '600', '700'],
 });
 
-const dmSans = DM_Sans({
+const barlow = Barlow({
   subsets: ['latin'],
-  variable: '--font-dm-sans',
+  variable: '--font-barlow',
   weight: ['300', '400', '500', '600'],
+  style: ['normal', 'italic'],
 });
 
 const dmMono = DM_Mono({
@@ -34,7 +35,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${playfair.variable} ${dmSans.variable} ${dmMono.variable} flex flex-col min-h-screen`}>
+      <body className={`${cinzel.variable} ${barlow.variable} ${dmMono.variable} flex flex-col min-h-screen`}>
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />

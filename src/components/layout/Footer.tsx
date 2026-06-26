@@ -25,7 +25,7 @@ export default function Footer() {
 
         {/* Navigation */}
         <div>
-          <h3 className="font-mono text-xs uppercase tracking-wider text-gold mb-4">Explore</h3>
+          <h3 className="font-mono text-xs uppercase tracking-wider text-forest-lt mb-4">Explore</h3>
           <ul className="space-y-2 text-sm">
             <li><Link href="/" className="hover:text-gold transition-colors">Home</Link></li>
             <li><Link href="/about" className="hover:text-gold transition-colors">About</Link></li>
@@ -37,7 +37,7 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <h3 className="font-mono text-xs uppercase tracking-wider text-gold mb-4">Get in Touch</h3>
+          <h3 className="font-mono text-xs uppercase tracking-wider text-forest-lt mb-4">Get in Touch</h3>
           <ul className="space-y-2 text-sm">
             <li>
               <a href="tel:18003572011" className="font-mono hover:text-gold transition-colors">

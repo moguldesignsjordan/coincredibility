@@ -8,16 +8,22 @@
   --color-gold: #C9922A;
   --color-gold-lt: #F0C46A;
   --color-gold-bg: #FDF6E9;
+  --color-gold-dk: #A87420;
   --color-cloud: #F5F7FA;
   --color-muted: #5A6B80;
   --color-inverse: #FFFFFF;
   --color-border: #E2E8F0;
 
-  /* Typography (CSS vars injected by next/font in layout.tsx) */
-  --font-display: var(--font-playfair), Georgia, serif;
-  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
-  --font-mono: var(--font-dm-mono), monospace;
+  /* Forest green (from logo) */
+  --color-forest: #1B5E38;
+  --color-forest-lt: #2A7A4A;
+  --color-forest-bg: #EEF7F2;
+  --color-forest-border: #B2D9C3;
 
+  /* Typography */
+  --font-display: var(--font-cinzel), Georgia, serif;
+  --font-sans: var(--font-barlow), system-ui, sans-serif;
+  --font-mono: var(--font-dm-mono), monospace;
 }
 
 @utility max-w-content {

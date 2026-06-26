@@ -171,23 +171,23 @@ export default function ContactPage() {
 
             <div className="h-px bg-border" />
 
-            <div className="bg-gold-bg border border-[#E8D5AA] rounded p-6">
+            <div className="bg-forest-bg border border-forest-border rounded p-6">
               <h3 className="font-bold mb-2">What to Expect</h3>
               <ul className="space-y-3 text-sm text-ink font-light">
                 <li className="flex items-start gap-2">
-                  <span className="text-gold font-bold mt-0.5">01</span>
+                  <span className="text-forest font-bold mt-0.5">01</span>
                   Submit the form or call us directly.
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-gold font-bold mt-0.5">02</span>
+                  <span className="text-forest font-bold mt-0.5">02</span>
                   We'll respond within one business day to confirm timing.
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-gold font-bold mt-0.5">03</span>
+                  <span className="text-forest font-bold mt-0.5">03</span>
                   A 30-minute discovery call at no charge.
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-gold font-bold mt-0.5">04</span>
+                  <span className="text-forest font-bold mt-0.5">04</span>
                   We propose a clear scope of work with no surprises.
                 </li>
               </ul>

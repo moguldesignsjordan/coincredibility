@@ -94,7 +94,7 @@ export default function FAQPage() {
         <div className="max-w-3xl">
           {faqs.map((group) => (
             <div key={group.category} className="mb-16 last:mb-0">
-              <h2 className="text-xs font-mono uppercase tracking-widest text-gold mb-6 pb-3 border-b border-border">
+              <h2 className="text-xs font-mono uppercase tracking-widest text-forest mb-6 pb-3 border-b border-forest-border">
                 {group.category}
               </h2>
               <div className="space-y-4">

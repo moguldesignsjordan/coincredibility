@@ -100,7 +100,7 @@ export default function ServicesPage() {
                 <ul className="space-y-3">
                   {service.points.map((point) => (
                     <li key={point} className="flex items-start gap-3">
-                      <span className="mt-1 h-[6px] w-[6px] rounded-full bg-gold shrink-0" />
+                      <span className="mt-1 h-[6px] w-[6px] rounded-full bg-forest shrink-0" />
                       <span className="text-ink font-light">{point}</span>
                     </li>
                   ))}
