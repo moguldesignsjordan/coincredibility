@@ -30,6 +30,36 @@
   max-width: 1200px;
 }
 
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-10px); }
+}
+
+@keyframes scanShield {
+  0%   { transform: translateY(0);     opacity: 0.9; }
+  85%  {                               opacity: 0.5; }
+  100% { transform: translateY(250px); opacity: 0; }
+}
+
+@keyframes radarRing {
+  0%   { transform: scale(1);   opacity: 0.75; }
+  100% { transform: scale(3.5); opacity: 0; }
+}
+
+@keyframes dashFlow {
+  to { stroke-dashoffset: -24; }
+}
+
+@keyframes nodePulse {
+  0%, 100% { opacity: 0.35; transform: scale(1); }
+  50%       { opacity: 1;    transform: scale(1.5); }
+}
+
 @layer base {
   body {
     background-color: var(--color-cloud);
