@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import SectionWrapper from '@/components/ui/SectionWrapper';
 import Eyebrow from '@/components/ui/Eyebrow';
 
@@ -23,8 +24,14 @@ export default function About() {
           <div className="md:col-span-4 flex justify-center">
             {/* Founder Image Treatment */}
             <div className="w-64 h-64 rounded-full border-[3px] border-gold p-2">
-              <div className="w-full h-full rounded-full bg-steel overflow-hidden shadow-lg">
-                 {/* Replace with Germain Tyler photo */}
+              <div className="w-full h-full rounded-full overflow-hidden shadow-lg relative">
+                <Image
+                  src="/germain-tyler.jpg"
+                  alt="Germain Tyler, Founder of Coin Credibility"
+                  fill
+                  className="object-cover object-top"
+                  sizes="256px"
+                />
               </div>
             </div>
           </div>
