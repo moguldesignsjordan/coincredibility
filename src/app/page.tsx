@@ -1,65 +1,73 @@
-import Image from "next/image";
+import SectionWrapper from '@/components/ui/SectionWrapper';
+import Eyebrow from '@/components/ui/Eyebrow';
+import Button from '@/components/ui/Button';
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      {/* SECTION A: Hero */}
+      <section className="bg-ink text-inverse py-20 md:py-32 relative overflow-hidden">
+        <div className="max-w-content mx-auto px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center gap-12">
+          <div className="w-full md:w-[60%]">
+            <Eyebrow>Cybersecurity & Business Consulting</Eyebrow>
+            <h1 className="text-5xl md:text-7xl font-bold font-display leading-tight mb-6 text-white">
+              Protect.<br />Strengthen.<br />Grow.
+            </h1>
+            <p className="text-lg md:text-xl text-cloud opacity-90 mb-8 max-w-xl font-light">
+              In today's digital economy, cybersecurity isn't a luxury , it's a business requirement. Coin Credibility provides practical cybersecurity consulting and risk management solutions that help your business operate securely, efficiently, and with confidence.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Button href="/contact" variant="primary">Schedule a Consultation →</Button>
+              <Button href="/services" variant="secondary">Learn About Our Services</Button>
+            </div>
+          </div>
+          {/* Image Placeholder - Replace with actual professional asset */}
+          <div className="hidden md:block w-full md:w-[40%] aspect-square bg-steel rounded border border-iron shadow-2xl"></div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* SECTION B: Trust Banner */}
+      <div className="bg-steel py-6 border-y border-iron">
+        <div className="max-w-content mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-cloud text-sm font-medium">Trusted by businesses across Michigan and nationwide</p>
+          <div className="flex gap-6 text-muted text-sm uppercase tracking-wide font-mono">
+            <span>Finance</span> | <span>Healthcare</span> | <span>Legal</span> | <span>Technology</span>
+          </div>
         </div>
-      </main>
-    </div>
+      </div>
+
+      {/* SECTION C: Services Overview */}
+      <SectionWrapper bgClass="bg-cloud">
+        <Eyebrow>What We Do</Eyebrow>
+        <h2 className="text-4xl md:text-5xl font-bold mb-12">Four Ways We Help Your Business</h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Service Card 1 */}
+          <div className="bg-white p-8 rounded border border-border shadow-sm">
+            <h3 className="text-2xl font-semibold font-display mb-4">Cybersecurity Consulting</h3>
+            <p className="text-muted mb-6">Identify vulnerabilities, improve security practices, and strengthen your overall security posture before a threat becomes a crisis.</p>
+            <Button href="/services#cybersecurity" variant="ghost">View Service →</Button>
+          </div>
+          {/* Service Card 2 */}
+          <div className="bg-white p-8 rounded border border-border shadow-sm">
+            <h3 className="text-2xl font-semibold font-display mb-4">Risk Management Consulting</h3>
+            <p className="text-muted mb-6">Evaluate existing processes, identify operational risks, and implement strategies that reduce business interruptions and protect continuity.</p>
+            <Button href="/services#risk-management" variant="ghost">View Service →</Button>
+          </div>
+          {/* Service Card 3 */}
+          <div className="bg-white p-8 rounded border border-border shadow-sm">
+            <h3 className="text-2xl font-semibold font-display mb-4">Business Consulting</h3>
+            <p className="text-muted mb-6">Operational consulting, workflow improvement, technology planning, and strategic guidance to support sustainable business growth.</p>
+            <Button href="/services#business-consulting" variant="ghost">View Service →</Button>
+          </div>
+          {/* Service Card 4 */}
+          <div className="bg-white p-8 rounded border border-border shadow-sm">
+            <h3 className="text-2xl font-semibold font-display mb-4">Security Awareness</h3>
+            <p className="text-muted mb-6">Education and recommendations that help your team recognize threats, adopt safe practices, and become your first line of defense.</p>
+            <Button href="/services#security-awareness" variant="ghost">View Service →</Button>
+          </div>
+        </div>
+      </SectionWrapper>
+    </>
   );
 }
