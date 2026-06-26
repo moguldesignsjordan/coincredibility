@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -8,9 +9,15 @@ export default function Footer() {
       <div className="max-w-content mx-auto px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Brand */}
         <div>
-          <span className="font-display font-bold text-2xl tracking-wide text-white">
-            Coin<span className="text-gold">Credibility</span>
-          </span>
+          <Link href="/">
+            <Image
+              src="/logo.png"
+              alt="Coin Credibility LLC"
+              width={80}
+              height={80}
+              className="rounded-full"
+            />
+          </Link>
           <p className="mt-4 text-sm text-muted max-w-xs font-light">
             Practical cybersecurity and business consulting that helps you protect, strengthen, and grow.
           </p>

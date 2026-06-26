@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import Button from '../ui/Button';
 
@@ -34,7 +35,15 @@ export default function Navbar() {
       <div className="max-w-content mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
 
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
+        <Link href="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
+          <Image
+            src="/logo.png"
+            alt="Coin Credibility LLC"
+            width={48}
+            height={48}
+            className="rounded-full"
+            priority
+          />
           <span className="font-display font-bold text-2xl tracking-wide text-white">
             Coin<span className="text-gold">Credibility</span>
           </span>
