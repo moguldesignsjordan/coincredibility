@@ -15,7 +15,7 @@ export default function Home() {
               Protect.<br />Strengthen.<br />Grow.
             </h1>
             <p className="text-lg md:text-xl text-cloud opacity-90 mb-8 max-w-xl font-light">
-              In today's digital economy, cybersecurity isn't a luxury — it's a business requirement. Coin Credibility provides practical cybersecurity consulting and risk management solutions that help your business operate securely, efficiently, and with confidence.
+              In today's digital economy, cybersecurity isn't a luxury; it's a business requirement. Coin Credibility provides practical cybersecurity consulting and risk management solutions that help your business operate securely, efficiently, and with confidence.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button href="/contact" variant="primary">Schedule a Consultation →</Button>

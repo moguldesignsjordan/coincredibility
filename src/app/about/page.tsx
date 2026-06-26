@@ -70,7 +70,7 @@ export default function About() {
               Our mission is to help businesses identify cybersecurity risks, improve operational security, and build stronger, more resilient organizations.
             </p>
             <p>
-              We believe every business — regardless of size — deserves practical cybersecurity guidance that helps protect sensitive information, reduce risk, and support long-term success.
+              We believe every business, regardless of size, deserves practical cybersecurity guidance that helps protect sensitive information, reduce risk, and support long-term success.
             </p>
           </div>
           <div className="h-[2px] w-[60px] bg-forest mx-auto"></div>

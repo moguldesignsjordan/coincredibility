@@ -7,7 +7,7 @@ const services = [
     title: 'Cybersecurity Consulting',
     tagline: 'Identify and eliminate vulnerabilities before they become crises.',
     description:
-      "Most businesses don't know where their security gaps are until it's too late. We conduct structured assessments of your digital environment , systems, access controls, network posture, and practices , then deliver a clear, prioritized action plan to close exposures.",
+      "Most businesses don't know where their security gaps are until it's too late. We conduct structured assessments of your digital environment: systems, access controls, network posture, and practices. Then we deliver a clear, prioritized action plan to close exposures.",
     points: [
       'Security posture assessments & gap analysis',
       'Access control and credential reviews',
@@ -21,7 +21,7 @@ const services = [
     title: 'Risk Management Consulting',
     tagline: 'Protect continuity by addressing operational risk before it disrupts you.',
     description:
-      'Business interruptions are rarely random , they stem from unmanaged risk. We evaluate your existing processes, identify operational exposures, and help you implement controls that reduce the likelihood and impact of costly disruptions.',
+      'Business interruptions are rarely random; they stem from unmanaged risk. We evaluate your existing processes, identify operational exposures, and help you implement controls that reduce the likelihood and impact of costly disruptions.',
     points: [
       'Operational risk identification and scoring',
       'Business continuity and disaster recovery planning',
@@ -35,7 +35,7 @@ const services = [
     title: 'Business Consulting',
     tagline: 'Streamline operations, plan smarter, and build for sustainable growth.',
     description:
-      'Security and efficiency go hand in hand. We provide operational consulting that helps you remove friction, modernize workflows, and make better technology decisions , so your team can focus on the work that matters.',
+      'Security and efficiency go hand in hand. We provide operational consulting that helps you remove friction, modernize workflows, and make better technology decisions so your team can focus on the work that matters.',
     points: [
       'Operational workflow analysis and improvement',
       'Technology stack planning and guidance',
@@ -47,7 +47,7 @@ const services = [
   {
     id: 'security-awareness',
     title: 'Security Awareness Training',
-    tagline: "Your team is your first line of defense , make sure they're ready.",
+    tagline: "Your team is your first line of defense. Make sure they're ready.",
     description:
       "The most sophisticated security tools are undermined by a single phishing click. We provide practical, role-appropriate security education that helps your people recognize threats, adopt safe habits, and respond with confidence.",
     points: [
@@ -71,7 +71,7 @@ export default function ServicesPage() {
             Services Built for<br />Real Business Risk.
           </h1>
           <p className="text-lg text-cloud opacity-90 font-light max-w-2xl">
-            Coin Credibility offers four focused service areas designed to address the cybersecurity and operational challenges businesses face every day. No bloated retainers , just practical, results-driven consulting.
+            Coin Credibility offers four focused service areas designed to address the cybersecurity and operational challenges businesses face every day. No bloated retainers. Just practical, results-driven consulting.
           </p>
         </div>
       </section>

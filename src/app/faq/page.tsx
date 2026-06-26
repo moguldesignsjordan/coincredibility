@@ -12,11 +12,11 @@ const faqs = [
       },
       {
         q: "Do I need to be experiencing a security issue to work with you?",
-        a: "Not at all. Most of our clients engage us proactively , to understand their current risk posture, improve their security practices, or prepare for growth. Acting before a problem occurs is always more effective and less costly.",
+        a: "Not at all. Most of our clients engage us proactively to understand their current risk posture, improve their security practices, or prepare for growth. Acting before a problem occurs is always more effective and less costly.",
       },
       {
         q: "How does an engagement typically begin?",
-        a: "We start with a consultation to understand your business, your current environment, and your concerns. From there we scope a focused engagement , whether that's an assessment, a specific project, or ongoing advisory support.",
+        a: "We start with a consultation to understand your business, your current environment, and your concerns. From there we scope a focused engagement: whether that's an assessment, a specific project, or ongoing advisory support.",
       },
     ],
   },
@@ -28,7 +28,7 @@ const faqs = [
         a: "A cybersecurity assessment is a structured review of your organization's digital environment. We examine your systems, network configuration, access controls, user practices, and security policies to identify vulnerabilities and gaps. You receive a prioritized report with clear recommendations.",
       },
       {
-        q: "My business is small , do I really need cybersecurity consulting?",
+        q: "My business is small. Do I really need cybersecurity consulting?",
         a: "Yes. Small businesses are frequently targeted precisely because attackers expect weaker defenses. A breach can result in financial loss, reputational damage, regulatory penalties, and operational disruption. A modest investment in security now costs a fraction of what remediation costs later.",
       },
       {
@@ -42,7 +42,7 @@ const faqs = [
     items: [
       {
         q: "What's the difference between cybersecurity consulting and risk management consulting?",
-        a: "Cybersecurity consulting focuses on your digital systems and threats , vulnerabilities, breaches, access controls, and protective tools. Risk management consulting takes a broader operational view , identifying process gaps, continuity risks, compliance exposures, and business disruptions that may not be purely technical in nature. The two disciplines are complementary and we often address both together.",
+        a: "Cybersecurity consulting focuses on your digital systems and threats: vulnerabilities, breaches, access controls, and protective tools. Risk management consulting takes a broader operational view, identifying process gaps, continuity risks, compliance exposures, and business disruptions that may not be purely technical in nature. The two disciplines are complementary and we often address both together.",
       },
       {
         q: "Can you help us prepare for an audit or compliance review?",
@@ -84,7 +84,7 @@ export default function FAQPage() {
             Common Questions,<br />Straight Answers.
           </h1>
           <p className="text-lg text-cloud opacity-90 font-light max-w-2xl">
-            If you don't see what you're looking for, reach out , we're happy to talk through your specific situation.
+            If you don't see what you're looking for, reach out. We're happy to talk through your specific situation.
           </p>
         </div>
       </section>
