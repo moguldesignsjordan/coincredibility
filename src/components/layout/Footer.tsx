@@ -13,7 +13,7 @@ export default function Footer() {
           src="https://maps.google.com/maps?q=958+N+Newburgh+Rd,+Westland,+MI+48185&output=embed"
           width="100%"
           height="100%"
-          style={{ border: 0, filter: 'grayscale(1) invert(0.85) contrast(0.9)' }}
+          style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
