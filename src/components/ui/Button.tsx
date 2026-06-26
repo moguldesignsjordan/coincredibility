@@ -20,7 +20,7 @@ export default function Button({ children, href, variant = 'primary', className 
   const combinedStyles = `${baseStyle} ${variants[variant]} ${className}`;
 
   if (href) {
-    return <Link href={href} className={combinedStyles}>{children}</Link>;
+    return <Link href={href} className={combinedStyles} onClick={onClick}>{children}</Link>;
   }
 
   return (
