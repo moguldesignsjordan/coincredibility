@@ -78,8 +78,8 @@ export default function FAQPage() {
     <>
       {/* Hero */}
       <section className="bg-ink text-white py-20 md:py-28">
-        <div className="max-w-content mx-auto px-6 lg:px-8 max-w-3xl">
-          <Eyebrow>FAQ</Eyebrow>
+        <div className="max-w-3xl mx-auto px-6 lg:px-8">
+          <Eyebrow variant="light">FAQ</Eyebrow>
           <h1 className="text-5xl md:text-6xl font-bold font-display leading-tight mb-6 text-white">
             Common Questions,<br />Straight Answers.
           </h1>
@@ -121,7 +121,7 @@ export default function FAQPage() {
       {/* CTA */}
       <section className="bg-ink py-20">
         <div className="max-w-content mx-auto px-6 lg:px-8 text-center">
-          <Eyebrow>Still Have Questions?</Eyebrow>
+          <Eyebrow variant="light" className="items-center">Still Have Questions?</Eyebrow>
           <h2 className="text-4xl font-bold text-white mb-6">Talk to Us Directly.</h2>
           <p className="text-cloud opacity-90 font-light mb-10 max-w-xl mx-auto">
             We're happy to answer questions about your specific situation before you commit to anything.

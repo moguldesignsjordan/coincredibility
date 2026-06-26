@@ -32,21 +32,18 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-ink text-white border-b border-iron">
-      <div className="max-w-content mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div className="max-w-content mx-auto px-6 lg:px-8 h-24 flex items-center justify-between">
 
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
+        <Link href="/" onClick={() => setIsOpen(false)}>
           <Image
             src="/logo.png"
             alt="Coin Credibility LLC"
-            width={48}
-            height={48}
+            width={72}
+            height={72}
             className="rounded-full"
             priority
           />
-          <span className="font-display font-bold text-2xl tracking-wide text-white">
-            Coin<span className="text-gold">Credibility</span>
-          </span>
         </Link>
 
         {/* Desktop Nav */}

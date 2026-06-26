@@ -14,7 +14,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="bg-ink text-white py-20 md:py-28">
         <div className="max-w-content mx-auto px-6 lg:px-8">
-          <Eyebrow>Contact</Eyebrow>
+          <Eyebrow variant="light">Contact</Eyebrow>
           <h1 className="text-5xl md:text-6xl font-bold font-display leading-tight mb-6 text-white">
             Let's Talk.
           </h1>
